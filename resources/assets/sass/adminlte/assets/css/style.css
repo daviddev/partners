@@ -1,0 +1,135 @@
+.input-btn {
+	padding-top: 25px;
+}
+
+.input-btn button {
+	padding: 7px;
+	width: 90px;
+	background-color: #f56a0f;
+	border: none;
+	border-radius: 5px;
+	position: relative;
+}
+
+.input-btn button  a {
+	color: #ffffff;
+}
+
+.loadingGif {
+	height: 100px;
+	position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 30%;
+    z-index: 999999999;
+}
+
+.input-btn .loadingGif {
+	height: 30px;
+	bottom: 0;
+}
+
+.table th {
+	text-align: center;
+}
+
+.table td button {
+    padding: 5px;
+    width: 55px;
+    background-color: #f56a0f;
+    color: white;
+    border: none;
+    border-radius: 6px;
+}
+
+.panel-heading button span {
+	font-size: 16px;
+}
+
+@media (min-width: 1300px) {
+	.table-responsive {
+		overflow-x: hidden !important;
+	}
+}
+
+/*#crudTable tbody td:first-child + td, #crudTable tbody td:first-child + td + td + td {
+	text-align: left;
+}*/
+/* Safe Sites Page */
+.safe-sites > table.dataTable thead > tr > th {
+    padding-right: 0;
+}
+
+@media (min-width: 769px){
+    .safe-sites .dataTable thead .sorting, .safe-sites .dataTable thead .sorting_asc, .safe-sites .dataTable thead .sorting_desc, .safe-sites .dataTable thead .sorting_asc_disabled, .safe-sites .dataTable thead .sorting_desc_disabled{
+        padding-right: 0px;
+    }
+    .safe-sites .dataTable thead .sorting:before {
+        content: '';
+    }
+}
+
+/* Rotator Offer Styles */
+.priority-active-rotator, .offer-paused-us, .offer-need-bottle-info, .offer-inactive-cake, .offer-filled-100{
+    box-shadow: rgb(255, 255, 255) 0px 1px 0px 0px inset;
+    background: linear-gradient(rgb(249, 249, 249) 5%, rgb(233, 233, 233) 100%) rgb(249, 249, 249);
+    border-radius: 6px;
+    border: 1px solid rgb(220, 220, 220);
+    display: inline-block;
+    cursor: pointer;
+    color: rgb(102, 102, 102);
+    padding: 6px;
+    text-decoration: none;
+}
+
+.priority-active-rotator, .offer-paused-us .offer-name, .offer-need-bottle-info .offer-name, .offer-inactive-cake .offer-name, .offer-filled-100 .offer-name{
+    text-shadow: rgb(255, 255, 255) 0px 1px 0px;  
+}
+
+.priority-active-rotator .rotator-info i {
+    color: #888;
+    font-size: 14px;
+    position: relative;
+    top: 3px;
+}
+
+.priority-active-rotators, .rotator-drag, .rotator-no-drag {
+    border: 1px solid rgb(220, 220, 220);
+    min-height: 241px;
+    padding: 10px;
+    margin-top: -2px;
+    border-radius: 5px;
+}
+
+.priority-active-rotator .rotator-info.rotator-edit-offer-info, .priority-active-rotator .rotator-info.rotator-add-offer-info {
+    margin-right: 0;
+}
+
+.priority-sr-no label {
+    background: #f26919 none repeat scroll 0 0;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    height: 30px;
+    padding: 5px 0;
+    text-align: center;
+    width: 30px;
+    margin-bottom: 0px;
+    color: #ffffff;
+}
+
+.rotator-drag-tabs > ul {
+    margin-bottom: 0px !important;
+    border-bottom: none !important;
+}
+
+.rotator-drag-tabs .ui-state-active {
+    background-color: #fffaf0;  
+}
+
+.inactive-offers-pane {
+    background-color: #fffaf0;
+}

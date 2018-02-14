@@ -1,0 +1,132 @@
+/* Structure */
+
+.content-wrapper{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.skin-purple .wrapper, .skin-purple .main-sidebar, .skin-purple .left-side {
+    background-color: #ecf0f5;
+}
+
+.skin-purple .main-header .logo {
+    background-color: #e9f6ff;
+    color: #222;
+}
+
+.logo img{
+    max-width: 100px;
+    margin: 0 auto;
+}
+
+.skin-purple .main-header .logo:hover {
+    background-color: #e9f6ff;
+    color: #222;
+}
+
+.skin-purple .main-header .navbar {
+    background-color: #f26919;
+    color: #222;
+}
+
+.skin-purple .main-sidebar {
+    background-color: #f26919;
+    color: #f1dfd5;
+}
+
+.skin-purple .sidebar-menu>li.header {
+    color: #ffffff;
+    background: rgba(0,0,0,0.075);
+}
+
+.skin-purple .sidebar-menu>li:hover>a, .skin-purple .sidebar-menu>li.active>a {
+    color: #fff;
+    background: rgba(0,0,0,0.075);
+    border-left-color: #605ca8;
+}
+
+.skin-purple .sidebar a {
+    color: #f1dfd5;
+}
+
+/* Nav */
+@media (min-width: 768px){
+    .navbar-right {
+        float: right!important;
+        margin-right: inherit !important;
+    }
+}
+
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;    
+}
+
+.navbar-custom-menu>.navbar-nav>li>.dropdown-menu {
+    position: absolute;
+    left: 0;
+    right: inherit;
+}
+
+.navbar-custom-menu>.navbar-nav>.navbar-right>.dropdown-menu {
+    position: absolute;
+    right: 0 !important;
+    left: inherit !important;
+}
+
+/* Footer */
+.main-footer {
+    margin-left: 0;
+}
+
+/* Progress */
+.progress {
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+    border-radius: 4px;
+}
+
+.progress-bar {
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
+    transition: width .6s ease;
+}
+
+.progress-bar-success {
+    background-color: rgba(38, 185, 154, 0.7) !important;
+}
+
+.progress-bar-danger {
+    background-color: #f24c19 !important;
+}
+
+#cap-table_filter label input{
+    margin-left: 5px;
+}
+
+/* Buttons */
+
+body[class^='skin-purple'] .btn-primary {
+    color: #fff;
+    background-color: #777 !important;
+    border-color: transparent !important;
+}
+
+
+
+backpack.base.css:94
+body[class^='skin-purple'] .pagination>.active>a, body[class^='skin-purple'] .pagination>.active>a:focus, body[class^='skin-purple'] .pagination>.active>a:hover, body[class^='skin-purple'] .pagination>.active>span, body[class^='skin-purple'] .pagination>.active>span:focus, body[class^='skin-purple'] .pagination>.active>span:hover {
+    background-color: #777 !important;
+    border-color: transparent !important;
+}
+
+.input-btn button {
+    padding: 7px;
+    width: 90px;
+    background-color: #f56a0f;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    color: #ffffff !important;
+}
+
+.ui-tabs-active{
+    border-bottom: 1px solid #ffffff;
+}
