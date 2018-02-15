@@ -10,7 +10,7 @@ window._ = require('lodash');
 try {
     window.$ = window.jQuery = require('jquery');
     window.moment = require('moment');
-
+    window.csrf_token = document.head.querySelector('meta[name="csrf-token"]').content
     require('bootstrap-sass');
 } catch (e) {}
 

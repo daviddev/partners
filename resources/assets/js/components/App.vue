@@ -1,12 +1,15 @@
 <template>
-    <home></home>
+    <div>
+        <heading></heading>
+        <router-view></router-view>
+    </div>
 </template>
 
 <script>
-    import Home from './Home.vue'
+    import Heading from './layouts/Heading.vue'
 
     export default {
         name: 'app',
-        components: { Home }
+        components: { Heading }
     }
 </script>

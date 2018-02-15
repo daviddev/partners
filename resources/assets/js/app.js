@@ -9,6 +9,7 @@ require('./bootstrap');
 
 window.Vue = require('vue');
 require('./filters')
+require('./mixins')
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -17,8 +18,10 @@ require('./filters')
  */
 
 import App from './components/App.vue'
+import router from './router'
 
 const app = new Vue({
     el: '#app',
+    router,
     components: { App }
 });

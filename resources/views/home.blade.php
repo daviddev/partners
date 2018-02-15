@@ -1,7 +1,23 @@
-@extends('layouts.app')
+<!DOCTYPE html>
+<html lang="{{ app()->getLocale() }}">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-@section('content')
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <app></app>
+    <title>{{ config('app.name', 'Laravel') }}</title>
 
-@endsection
+    <!-- Styles -->
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+</head>
+<body class="skin-purple sidebar-mini  pace-done">
+    <app class="wrapper main" id="app"></app>
+    <!-- Scripts -->
+    <script>
+        window.user = {!! auth()->user() !!}
+    </script>
+    <script src="{{ asset('js/app.js') }}"></script>
+</body>
